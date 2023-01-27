@@ -8,6 +8,8 @@ group = 'com.polarbookshop'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '17'
 
+description = 'Provides API gateway and cross-cutting concerns.'
+
 repositories {
 	mavenCentral()
 }
@@ -27,6 +29,10 @@ dependencies {
 
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.testcontainers:junit-jupiter'
+
+//	implementation 'org.springframework.session:spring-session-data-redis'
+//	implementation 'org.springframework.cloud:spring-cloud-starter-config'
+//	testImplementation 'io.projectreactor:reactor-test'
 
 }
 
